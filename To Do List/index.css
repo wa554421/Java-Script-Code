@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+}
+
+
+header{
+    background-color: aqua;
+    height: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end; /* Move the ul to the right */
+    align-items: center; /* Vertically center the ul */
+
+}
+
+header ul{
+    margin-right: 70px;
+    justify-content: end;
+}
+
+header ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+    padding-top: 0px;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: red;
+    justify-content: end;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: red;
+}
+
+header ul li a:hover{
+    color: black;
+}
+
+
+.inputsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.inputsection input{
+    width: 20%;
+    margin: 20px auto;
+
+}
+
+.inputsection button{
+    width: 7%;
+    height: 20px;
+    margin-left: 720px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#table{
+    margin-left: 660px;
+    margin-top: 50px;
+    border-collapse: separate;  
+    border-spacing: 20px 10px; 
+
+}
+
+table thead th{
+    margin-left: 100px;
+    border: 2px solid black;
+    background-color: rgb(212, 152, 152);   
+    padding: 8px 55px;
+}
+
+table tbody tr{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
